@@ -8,7 +8,7 @@ app.use(express.static('public'));
 
 // Főoldal
 app.get('/', (req, res) => {
-    res.send("Működik a backend 😎");
+    res.send("Működik a backend");
 });
 
 // Felhasználók megjelenítése
